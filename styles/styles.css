@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
+html * {
+    font-family: "Charm", cursive ;
+    background-color: darkslategray;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* CAUTION! CHOICE LEVEL IS ONLY VISIBLE ON SETUP! */
+#levelChoice, #gameOver {
+    width: 100%;
+    height: 100%;
+    margin: 25vh auto;
+}
+
+h1 {
+    font-size : 3rem;
+    color: white;
+}
+
+input {
+    width: 30%;
+    margin: 0 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+button {
+    border: none;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
